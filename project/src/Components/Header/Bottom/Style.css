@@ -1,0 +1,33 @@
+.bottom {
+    padding: 5px;
+    border-bottom: 1px solid grey;
+}
+
+.bottom .bottom-elements {
+    margin: 0 auto;
+    width: 91%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.all-departments {
+    font-size: 10px;
+    padding: 7px;
+}
+
+.recent-viewod {
+    font-size: 10px;
+    padding: 7px;
+}
+
+.nav-elements {
+    font-size: 10px;
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-elements a{
+    text-decoration: none;
+    color: black;
+}

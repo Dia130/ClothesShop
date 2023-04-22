@@ -1,9 +1,9 @@
 import "./Style.css"
-import img1 from "../../../assets/1.jpg"
-import img2 from "../../../assets/2.jpg"
-import img3 from "../../../assets/3.jpg"
+import img1 from "../../../assets/main-page/1.jpg"
+import img2 from "../../../assets/main-page/2.jpg"
+import img3 from "../../../assets/main-page/3.jpg"
 import Picture from "./Picture"
-function FirstPage() {
+function LastPage() {
     return (
         <div className="page-1">
             <div className="first-part">
@@ -32,4 +32,4 @@ function FirstPage() {
     )
 }
 
-export default FirstPage
+export default LastPage
