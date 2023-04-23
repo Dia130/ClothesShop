@@ -3,10 +3,10 @@ import './App.css';
 import MainPage from './Components/MainPage';
 import Header from './Components/Header';
 function App() {
-  return (
+   return (
     <div className="App">
       <Header></Header>
-      {/* <MainPage></MainPage> */}
+      <MainPage></MainPage>
     </div>
   );
 }

@@ -1,10 +1,15 @@
 import "./Style.css"
-
+import FirstPage from "./FirstPage"
 import LastPage from "./LastPage"
 function MainPage() {
     return (
         <div className="Main-page">
-            <LastPage></LastPage>
+            <section>
+                <FirstPage/>
+            </section>
+            {/* <section>
+                <LastPage/>
+            </section> */}
         </div>
     )
 }
