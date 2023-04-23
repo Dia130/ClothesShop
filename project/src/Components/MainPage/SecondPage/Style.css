@@ -1,0 +1,12 @@
+.secondPage-main{
+    width: 100%;
+    height: 100vh;
+}
+
+.secondPage-main .inner-div{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 10px;
+    margin: 0 auto;
+}
