@@ -1,0 +1,57 @@
+.card-main{
+    width: 230px;
+    height: 300px;
+    box-shadow: 5px 5px 10px rgb(173, 173, 173), -5px -5px 10px rgb(173, 173, 173);
+}
+
+.card-main .img-div{
+    width: 100%;
+    height: 80%;
+}
+.img-div img{
+    width: 100%;
+    height: 100%;
+}
+
+.description-div{
+    width: 100%;
+    height: 20%;
+}
+.description-div .left-part{
+    width: 70%;
+    float: left;
+    background:none;
+    padding: 10px;
+    text-align: left;
+}
+
+.description-div .left-part p{
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.description-div
+.left-part
+button{
+    padding: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid black;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+.description-div .right-part{
+    width: 30%;
+    float: right;
+    background:none;
+    padding: 10px;
+    text-align: right;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

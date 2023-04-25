@@ -2,6 +2,7 @@ import "./Style.css"
 import FirstPage from "./FirstPage"
 import LastPage from "./LastPage"
 import SecondPage from "./SecondPage"
+import ThirdPage from "./ThirdPage"
 function MainPage() {
     return (
         <div className="Main-page">
@@ -10,6 +11,9 @@ function MainPage() {
             </section>
             <section>
                 <SecondPage />
+            </section>
+            <section>
+                <ThirdPage />
             </section>
             <section>
                 <LastPage />
