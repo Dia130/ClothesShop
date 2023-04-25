@@ -1,7 +1,16 @@
 .thirs-page-main{
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     background-color: #e9e7e7;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+.thirs-page-main .third-page-information{
+    padding: 20px;
+    height: 80%;
+    width: 100%;
 }
 .thirs-page-main .card-part .cards{
     display: grid;
@@ -10,26 +19,13 @@
     width: 60%;
     margin: 0 auto;
     height: 70%;
-    
 }
 
-
-.thirs-page-main .nav-part{
-    width: 60%;
-    height: 30%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.thirs-page-main .card-part {
+    margin: 30px;
 }
 
-.view-all{
-    margin-top: 20px;
-    padding: 10px 20px;
-    width: 120px;
-    outline: none;
-    border: none;
-    border: 1px solid black;
-    font-weight: bold;
+.thirs-page-main .card-part .view-all{
+    padding: 8px 16px;
+    margin: 30px auto;    
 }
