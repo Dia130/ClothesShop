@@ -32,16 +32,17 @@
     width: 20%;
     float: right;
     border: 2px solid teal;
-    background-color: teal;
-    color: aliceblue;
+    background:transparent;
+    color: black;
     outline: none;
     border-radius: 3px;
 
 }
 
 .search-div .search-btn:hover {
-    border: 2px solid rgb(0, 128, 128, 0.8);
-    background-color: rgb(0, 128, 128, 0.8);
+    border: 2px solid teal;
+    background-color: teal;
+    color: lightblue;
 }
 
 .search-div .search-btn,

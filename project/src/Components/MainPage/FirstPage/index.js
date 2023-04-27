@@ -2,7 +2,7 @@ import "./Style.css"
 import img1 from "../../../assets/main-page/FirstPage/1.jpg"
 import {useState} from "react"
 function FirstProject() {
-    let toLeft = "<"
+    let toLeft = "<"    
     let toRight = ">"
     return (
         <div className="main-div-for-first-project">
